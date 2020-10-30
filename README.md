@@ -4,7 +4,6 @@ Little simulation program of the classic dominoes game Mexican Train. Currently 
 The classic disgruntled-boyfriend-loses-game-and-makes-a-program-to-simulate-it-proving-the-game-is-just-luck situation.
 After playing Mexican Train with my girlfriend a bunch of times (and pretty much always losing), it always felt like I was losing due to terrible luck.
 Queue to making a program to simulate my strategy for the entire game...
-Currently, all it does is sort the players hand.
 Uses the DFS search algorithm recursively to check all combinations of dominoes.
 It returns the longest chain of dominoes made from the starting domino.
 Since players can also play from other chains, it repeatedly does this process till no more dominoes can be connected.
